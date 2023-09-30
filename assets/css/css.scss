@@ -1,0 +1,68 @@
+$font-stack:    Helvetica, sans-serif;
+$primary-color: black;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+  padding: 40px 50px;
+
+  h1{
+    text-align: center;
+  }
+
+  .bold{
+    font-weight: bold;
+  }
+
+  .title{
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .i {
+    font-style: italic;
+  }
+
+  h2{
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .code{
+
+    background: #222;
+    border-radius: 5px;
+    padding: 30px 20px 0px 20px;
+    color: #fff;
+    position: relative;
+
+    .btn{
+        position: absolute;
+        content: "";
+        height: 14px;
+        width: 14px;
+        top: 12px;
+        border-radius: 50px;
+    }
+
+    .btn1{
+        left: 20px;
+        background: #ff5f57;
+    }
+    .btn2{
+        left: 45px;
+        background: #febc2d;
+    }
+    .btn3{
+        left: 70px;
+        background: #2ac840;
+    }
+
+    p{
+        font-family: monospace;
+        line-height: 0px;
+        margin: 0;
+        margin-block: -4px;
+    }
+  }
+}

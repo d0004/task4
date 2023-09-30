@@ -1,0 +1,57 @@
+body {
+  font: 100% Helvetica, sans-serif;
+  color: black;
+  padding: 40px 50px;
+}
+body h1 {
+  text-align: center;
+}
+body .bold {
+  font-weight: bold;
+}
+body .title {
+  font-size: 30px;
+  text-align: center;
+}
+body .i {
+  font-style: italic;
+}
+body h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+body .code {
+  background: #222;
+  border-radius: 5px;
+  padding: 30px 20px 0px 20px;
+  color: #fff;
+  position: relative;
+}
+body .code .btn {
+  position: absolute;
+  content: "";
+  height: 14px;
+  width: 14px;
+  top: 12px;
+  border-radius: 50px;
+}
+body .code .btn1 {
+  left: 20px;
+  background: #ff5f57;
+}
+body .code .btn2 {
+  left: 45px;
+  background: #febc2d;
+}
+body .code .btn3 {
+  left: 70px;
+  background: #2ac840;
+}
+body .code p {
+  font-family: monospace;
+  line-height: 0px;
+  margin: 0;
+  margin-block: -4px;
+}
+
+/*# sourceMappingURL=css.css.map */
